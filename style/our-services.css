@@ -224,6 +224,90 @@ main {
     font-size: 15px;
     font-family: 'Raleway', sans-serif;
 }
+.destinations {
+    background-image: url("../img/our-service/background_section_destination.jpg");
+    background-size: cover;
+    min-height: 1200px;
+    background-attachment: fixed;
+}
+
+.destination-wrap {
+    background-color: var(--background-color-wrap);
+    background-size: cover;
+    min-height: 1200px;
+}
+
+.destination__header {
+    text-align: center;
+    color: var(--background-color-white);
+}
+
+.destinations__h2 {
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding-top: 90px;
+}
+
+.sea__subheader {
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 20px;
+
+}
+
+.routes {
+    flex-direction: column;
+    row-gap: 30px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.frame {
+    background-color: var(--background-color-white);
+    width: 80%;
+}
+
+.frame-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    padding-top: 50px;
+}
+
+.croatian_isles_img,
+.amalfi_img,
+.norwey_img,
+.turkey_img,
+.spain_img,
+.greece_img {
+    max-width: 80%;
+}
+
+.croatian_isles_p,
+.amalfi_p,
+.norwey_p,
+.turkey_p,
+.spain_p,
+.greece_p {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
 
 
 
