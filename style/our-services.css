@@ -627,6 +627,123 @@ main {
     transition: background-color ease 0.3s;
     cursor: pointer;
 }
+.footer {
+    background-image: url(../img/our-service/footer.png);
+    background-size: cover;
+    min-height: 250px;
+    margin-top: -10px;
+}
+
+.footer-logo-p {
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.footer-contetn-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.footer-contetn-column > a {
+    margin-top: 15px;
+}
+
+.footer-content-column-h4 {
+    color: white;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 1px;
+}
+
+.footer__contacts-icons {
+    display: flex;
+    column-gap: 10px;
+    margin-top: 15px;
+
+}
+
+.footer__contacts-social {
+    border: 1px solid #d0bd8c;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__contacts-social > a {
+    color: #d0bd8c;
+}
+
+.footer__contacts-social:hover {
+    background-color: #d0bd8c;
+}
+
+.footer__contacts-social > a:hover {
+    color: #25364a;
+}
+.form-footer-input-email {
+    background-color: rgb(81, 92, 109);
+    border-radius: 20px;
+    font-size: 14px;
+    border: none;
+    width: 94%;
+    text-align: center;
+}
+.form-footer-input-email, .form-content-wrap_button  {
+    padding: 12px 24px;
+}
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.form-footer_button {
+    padding: 12px;
+    width: 100%;
+    background: var(--text-color-hover);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.form-footer_button:hover {
+    background: white;
+    color: var(--text-color-hover);
+    transition: background-color ease 0.3s;
+    cursor: pointer;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 770px) {
+    .form-content-wrap {
+        max-width: 650px;
+    }
+    .footer-content {
+
+        flex-direction: row;
+        column-gap: 50px;
+    }
+    .form-footer-input-email {
+        width: 72%;
+    }
+    .footer-contetn-column {
+        align-items: flex-start;
+    }
+}
 
 
 
