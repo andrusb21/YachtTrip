@@ -389,6 +389,107 @@ main {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+@media (min-width: 1000px) {
+    .header-nav__burger {
+        display: none;
+    }
+
+    .header-top {
+        margin: auto;
+        display: block;
+        padding-bottom: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+    }
+
+    .header__contacts {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header__contacts-icons {
+        display: flex;
+        column-gap: 10px;
+    }
+
+    .header__contacts-tel {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+
+    .header__contacts a {
+        font-size: 16px;
+        color: #d0bd8c;
+        text-decoration: none;
+    }
+
+    .header__contacts-social {
+        width: 25px;
+        height: 25px;
+        border: 1px solid black;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__contacts-social a {
+        color: black;
+    }
+
+    .header_nav-links {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
+@media (min-width: 770px) {
+
+    .main__header__info-content {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .routes {
+        flex-direction: row;
+    }
+
+    .frame {
+        width: 30%;
+    }
+
+    .accommodation_options_main_content, .crew-services_content {
+        display: flex;
+        column-gap: 10px;
+    }
+
+    .accommodation_options_main_content_wrap, .crew-services_content-wrap {
+        padding-right: 45px;
+        padding-left: 45px;
+    }
+
+    .payment-options_content {
+        display: flex;
+        column-gap: 30px;
+    }
+
+    .payment-options_content-10-30-60 {
+        margin-left: 20px;
+    }
+
+    .payment-options_content-early-booking {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+}
 
 
 
