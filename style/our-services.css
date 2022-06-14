@@ -180,7 +180,50 @@ body.lock {
 .header__top-navigation-button:hover {
     color: #d0bd8c;
 }
+main {
+    font-family: 'Playfair Display', serif;
+}
 
+.main__header {
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 100px;
+}
+
+.main__header__info-h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: rgb(37, 54, 74);
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.main__header__info-content {
+    flex-direction: column;
+}
+
+.main__header__info-h3 {
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: var(--main-text-color);
+}
+
+.main__header__info-p-up {
+    margin-top: 20px;
+}
+
+.main__header__info-left {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.main__header__info-left p {
+    letter-spacing: 0.465px;
+    line-height: 26px;
+    color: rgb(81, 92, 109);
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
 
 
 
