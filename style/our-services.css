@@ -491,5 +491,43 @@ main {
 
 }
 
+.payment-options {
+    background-image: url(../img/our-service/background_section_payment_options.jpg);
+    background-size: cover;
+    max-height: 650px;
+    background-attachment: fixed;
+
+}
+
+.payment-options-wrap {
+    background-color: rgba(241, 240, 232, 0.95);
+    background-size: cover;
+    max-height: 650px;
+}
+
+.payment-options__header {
+    padding-top: 30px;
+    margin-top: 60px;
+}
+
+.payment-options_content-10-30-60,
+.payment-options_content-early-booking {
+    background-color: white;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.payment-options_content-10-30-60_h3,
+.payment-options_content-early-booking_h3 {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.payment-options_content {
+    padding-bottom: 50px;
+}
+
+
 
 
