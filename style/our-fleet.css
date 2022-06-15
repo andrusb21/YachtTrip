@@ -1,0 +1,51 @@
+.our-fleet {
+    background-image: url(../img/our-fleet/our-fleet-background.jpg);
+    background-size: cover;
+    min-height: 650px;
+}
+.our-fleet-wrap {
+    background-color: rgba(241, 240, 232, 0.84);
+    background-size: cover;
+    min-height: 650px;
+}
+.our-fleet-h1 {
+    font-size: 48px;
+    color: var(--main-text-color);
+    text-align: center;
+    padding: 100px 0 30px;
+}
+.our-fleet-p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.our-fleet-main {
+    display: flex;
+    column-gap: 30px;
+}
+.our-fleet-frame {
+    background-color: var(--background-color-white);
+    width: 80%;
+
+}
+.our-fleet_img {
+    max-width: 80%;
+}
+.our-fleet-frame-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+}
+.our-fleet-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.our-fleet_p {
+    text-align: center;
+}
