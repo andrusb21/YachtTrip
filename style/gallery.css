@@ -4,6 +4,7 @@
     column-gap: 60px;
 
 }
+
 .gallery-column {
     display: flex;
     flex-direction: column;
@@ -11,18 +12,32 @@
     margin: 80px 0 80px;
     width: 25%;
 }
+
 .column-1-img-1 {
     height: 60%;
 }
+
 .column-1-img-2 {
     height: 30%;
 }
+
 .column-2-img-1 {
     height: 30%;
 }
+
 .column-2-img-2 {
     height: 60%;
 }
+
 .column-4-img-1 {
     height: 90%;
+}
+
+@media (max-width: 770px) {
+    .gallery {
+        display: block;
+    }
+    .gallery-column {
+    width: 100%;
+    }
 }
