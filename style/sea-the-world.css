@@ -1,0 +1,90 @@
+.sea-the-world-h1 {
+    font-size: 48px;
+    color: var(--main-text-color);
+    text-align: center;
+    margin: 100px 0 30px;
+}
+
+.sea-the-world-p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.sea-the-world {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.sea-the-world_routes {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    column-gap: 80px;
+    row-gap: 80px;
+}
+
+.sea-the-world_item {
+    display: flex;
+    width: 45%;
+    box-sizing: border-box;
+    column-gap: 35px;
+}
+
+.sea-the-world-routes-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.info-month {
+    color: #d0bd8c;
+}
+
+.info-button {
+    width: 104px;
+    height: 38px;
+    background: var(--text-color-hover);
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.info-button:hover {
+    background: white;
+    color: #d0bd8c;
+    cursor: pointer;
+}
+
+.sea-the-world-img {
+    width: 50%;
+}
+
+.info-h3 {
+    font-size: 24px;
+}
+
+.sea-the-world-btn {
+    text-decoration: none;
+    border: 2px solid var(--text-color-hover);
+    color: var(--main-text-color);
+    border-radius: 20px;
+    margin-bottom: 50px;
+    padding: 7px 11px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.sea-the-world-button {
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+.sea-the-world-btn:hover {
+    color: white;
+    background: #d0bd8c;
+}
