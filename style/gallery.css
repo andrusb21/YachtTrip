@@ -33,11 +33,93 @@
     height: 90%;
 }
 
+.yacht-sails-trips {
+    background-image: url("../img/our-service/background_section_destination.jpg");
+    background-size: cover;
+    min-height: 600px;
+    background-attachment: fixed;
+}
+
+.yacht-sails-trips-wrap {
+    background-color: var(--background-color-wrap);
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+}
+
+.yacht-sails-trips-main-wrap {
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.yacht-sails-trips-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.yacht-sails-trips-main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.yacht-sails-trips-main-h1 {
+    font-size: 48px;
+    color: white;
+}
+
+.yacht-sails-trips-main-p {
+    font-size: 15px;
+    color: white;
+    width: 70%;
+}
+
+.yacht-sails-trips-main-btn {
+    background: var(--text-color-hover);
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 4px 20px;
+    font-weight: 500;
+    width: 87px;
+}
+
+.yacht-sails-trips-img {
+    background-color: white;
+}
+
+.yacht-sails-trips-main-btn:hover {
+    background: white;
+    color: #d0bd8c;
+    cursor: pointer;
+}
+
+.yacht-sails-trips-img-1 {
+    width: 80%;
+    padding: 20px 15px;
+}
+
 @media (max-width: 770px) {
     .gallery {
         display: block;
     }
+
     .gallery-column {
-    width: 100%;
+        width: 100%;
+    }
+    .yacht-sails-trips-main-wrap {
+        flex-direction: column;
+    }
+    .yacht-sails-trips-img {
+        margin-top: 30px;
+        margin-bottom: 40px;
+        width: 70%;
     }
 }
