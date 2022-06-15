@@ -88,3 +88,13 @@
     color: white;
     background: #d0bd8c;
 }
+@media (max-width: 840px) {
+    .sea-the-world_item {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sea-the-world-routes-info {
+        align-items: center;
+    }
+}
