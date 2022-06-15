@@ -1,0 +1,39 @@
+.form-wrap {
+    display: flex;
+    column-gap: 10px;
+}
+.form-content-contacts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.form-content-h1, .form-content-p {
+    text-align: center;
+    margin-top: 20px;
+}
+.icons-wrap {
+    display: flex;
+    justify-content: center;
+}
+.form-content-wrap {
+    width: 50%;
+}
+
+@media (max-width: 770px) {
+    .form-wrap {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .form-content-wrap {
+        width: 80%;
+        margin: auto;
+    }
+    .form-background {
+        min-height: 1050px;
+    }
+    .icons-wrap {
+        margin-bottom: 20px;
+    }
+
+
+}
