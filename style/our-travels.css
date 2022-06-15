@@ -1,0 +1,68 @@
+.our-travels-h1 {
+    font-size: 48px;
+    color: var(--main-text-color);
+    text-align: center;
+    padding: 100px 0 30px;
+}
+.our-travels-p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.our-travels-content {
+    display: flex;
+    column-gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.yacht_img {
+    width: 18%;
+
+}
+.sea-the-world-button {
+    display: flex;
+    justify-content: center;
+}
+.inst {
+    display: inline-block;
+    border: 1px solid var(--main-text-color);
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+.inst-circle {
+    display: inline-block;
+    border: 1px solid var(--main-text-color);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 4px;
+}
+.inst-circle:after {
+    display: inline-block;
+    background-color: var(--main-text-color);
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    content: "";
+    position: absolute;
+    top: -2px;
+    right: -2px;
+}
+
+@media (max-width: 770px) {
+    .our-travels-content {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .yacht_img {
+        width: 60%;
+
+    }
+
+}
